@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  dev:
+    command: /bin/sh -c "while true; do /bin/sleep 3600; done"
+    environment:
+      - HOME=/workspace

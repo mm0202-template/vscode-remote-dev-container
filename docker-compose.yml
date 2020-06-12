@@ -1,0 +1,7 @@
+version: "3.8"
+services: 
+  dev:
+    image: python
+    working_dir: /workspace
+    volumes: 
+      - ./:/workspace

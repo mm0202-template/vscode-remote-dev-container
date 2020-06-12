@@ -1,0 +1,13 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+    "name": "no name",
+    "dockerComposeFile": [
+      "../docker-compose.yml",
+      "docker-compose.extend.yml"
+    ],
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    }
+  }
